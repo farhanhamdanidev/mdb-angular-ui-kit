@@ -32,7 +32,7 @@ export class MdbCarouselComponent implements AfterViewInit, OnDestroy {
   @ContentChildren(MdbCarouselItemComponent) _items: QueryList<MdbCarouselItemComponent>;
   get items(): MdbCarouselItemComponent[] {
     return this._items && this._items.toArray();
-  }
+  }   
 
   @Input() animation: 'slide' | 'fade' = 'slide';
 

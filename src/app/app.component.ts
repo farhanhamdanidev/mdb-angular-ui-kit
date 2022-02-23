@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'mdb-angular-ui-kit-free';
+  title = 'District 3 Developers';
+
+  
+
 }
